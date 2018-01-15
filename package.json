@@ -1,0 +1,22 @@
+{
+  "name": "testbottot",
+  "version": "1.0.0",
+  "description": "Nothing",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattfalcon/testBotTot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattfalcon/testBotTot/issues"
+  },
+  "homepage": "https://github.com/mattfalcon/testBotTot#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
