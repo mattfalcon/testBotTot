@@ -38,7 +38,7 @@ var othertweets = [];
 var TweetTrump = function () {
 //====================USER 1 =============================================
 // params
-var params = {screen_name: 'kylegriffin1', count: 250, include_rts: false, exclude_replies: false};
+var params = {screen_name: 'tweetrajouhari', count: 250, include_rts: false, exclude_replies: false};
 //client get
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
  if (!error) {
