@@ -77,7 +77,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 //=======================USER NUMBER 2 =========================================
 //===============================================================================
-var newparams = {screen_name: 'erictrump', count: 250, include_rts: false}
+var newparams = {screen_name: 'realDonaldTrump', count: 250, include_rts: false}
 
 //client get
 client.get('statuses/user_timeline', newparams, function(error, tweets, response) {
@@ -121,7 +121,7 @@ client.get('statuses/user_timeline', newparams, function(error, tweets, response
 }
 
 TweetTrump()
-setInterval(TweetTrump, 1740000)
+setInterval(TweetTrump, 1200000)
 
 // client.post('statuses/update', {status: alltweets.selected_tweet.text + "#HATORADE"}, function(error, tweet, response) {
 //     if (!error) {
