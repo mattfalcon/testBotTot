@@ -98,7 +98,21 @@ var otherArray = [
     "YOU CAN DO IT!",
     "Golf requires goofy pants and a fat ass",
     "Alcohol equals puke equals smelly equals nobody likes you ",
-    "Alligators are ornery 'cause of their Medula Oblongata"
+    "Alligators are ornery 'cause of their Medula Oblongata",
+    "I ain't fartin' on no snare drum",
+    "Are you peeing or is a diesel truck turning off",
+    " I can’t run a company… I can’t even run my own life",
+    "Sir one more comment like that and I will strangle you with my microphone wire!",
+    "what you lookin’ at, swan?",
+    "And she showed me her boobies and I like them too!",
+    "Paul Newman’s half-Jewish, Goldie Hawn’s half too, put them together, what a fine looking Jew",
+    "soooo hot, want to touch the heiny, ooooooo",
+    "You little son of a bitch ball! Why you don’t you just go HOME? That’s your HOME!",
+    "The price is wrong, bitch!",
+    "I am the smartest man alive!",
+    "Shampoo is better, I go in first and clean the hair",
+    "Conditioner is better, I leave the hair silky and smooth",
+    "Please get out of my Van Halen t-shirt before you jinx the band and they break up."
     ]
 
 //function to choose random array 
