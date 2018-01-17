@@ -8,26 +8,11 @@
 // 6.  Use Process.Env 
 //==========================================
 
-//API KEYS
-
-//Access Token	902634864226295811-R2UUOtt3EUL5F9niptEOIRcMUxDVwPf
-//Access Token Secret	OJpR9djXjIrUiSAv8XUVz7S8GjMCKJHf8nMR3A2PVH7FG
-//Consumer Key (API Key)	m48lhXxhDKqilWNBSyLR25JQM
-//Consumer Secret (API Secret)	JGg7vm0bTILOlacxo7KVmOoPhyNKpIHaYWi8VuMEVHc4RhsLpl
-
 //=======================REQUIREMENTS====================================
 //==================================
 
 var Twitter = require('twitter');
 var fs = require ('fs');
-
-//======================API KEYS=======================================
-// var client = new Twitter({
-//  consumer_key: 'm48lhXxhDKqilWNBSyLR25JQM',
-//  consumer_secret: 'JGg7vm0bTILOlacxo7KVmOoPhyNKpIHaYWi8VuMEVHc4RhsLpl',
-//  access_token_key: '902634864226295811-R2UUOtt3EUL5F9niptEOIRcMUxDVwPf',
-//  access_token_secret: 'OJpR9djXjIrUiSAv8XUVz7S8GjMCKJHf8nMR3A2PVH7FG'
-// });
 
 var client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -176,4 +161,4 @@ var tweetSandler = function () {
 }
 
 tweetSandler();
-setInterval(tweetSandler, 600000)
+setInterval(tweetSandler, 1800000)
